@@ -5,9 +5,9 @@ const app = async()=> {
 
     client.onMessage((msg) => {
         console.log(msg);
-        client.sendText(msg.from, "Fala feio.")
+        client.sendText(msg.from, "Oi eu sou Ana.")
     })
-    
+
 }
 
 app()
